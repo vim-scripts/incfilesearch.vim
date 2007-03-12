@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1822
+
+Based on incbufswitch.vim (http://www.vim.org/scripts/script.php?script_id=685)
+
+Usage:
+(1) Define a normal key mapping to :IncFileSearch or leave the default of <C-O>
+(2) When activated, start typing the name of the buffer you want to switch to.
+(3) Press <BS> if you make an error
+(4) Press <CR> to edit the first buffer in the remaining match list
+(5) Press <ESC> to quit and continue editing the current buffer
+
+Still a little crude. Polish from vim experts appreciated!
